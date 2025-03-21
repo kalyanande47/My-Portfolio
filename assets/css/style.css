@@ -526,7 +526,38 @@ header .navbar ul li a:hover {
     width: 90%;
   }
 }
+.conte {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgb(252, 252, 252); /* light yellow with transparency */
+  backdrop-filter: blur(10px); /* blur effect */
+  box-shadow: 0 4px 20px rgba(255, 94, 0, 0.812);
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+}
+.conte:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+.tage h2 {
+  margin-top: 0;
+  color: #444;
+  font-size: 2em;
+  text-align: center;
+}
 
+.desce h3 {
+  color: #222;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.desce p {
+  font-size: 1.2em;
+  color: #333;
+  line-height: 1.6;
+}
 .skills .container {
   background: rgba(0, 0, 22, 0.4);
   color: #fff;

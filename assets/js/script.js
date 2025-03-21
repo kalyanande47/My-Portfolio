@@ -138,6 +138,14 @@ fetchData("projects").then(data => {
 VanillaTilt.init(document.querySelectorAll(".tilt"), {
     max: 15,
 });
+
+
+function openPDF(event) {
+    event.preventDefault();
+    const pdfUrl = 'https://kalyanande47.github.io/My-Portfolio/assets/resume.pdf';
+    const viewer = 'https://docs.google.com/viewer?url=' + encodeURIComponent(pdfUrl);
+    window.open(viewer, '_blank');
+  }
 // <!-- tilt js effect ends -->
 
 
