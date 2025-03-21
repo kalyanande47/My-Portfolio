@@ -526,7 +526,7 @@ header .navbar ul li a:hover {
     width: 90%;
   }
 }
-.conte {
+.contain {
   max-width: 800px;
   margin: 50px auto;
   padding: 20px;
@@ -537,7 +537,7 @@ header .navbar ul li a:hover {
   font-family: "Times New Roman", Times, serif;
   cursor: pointer;
 }
-.conte:hover {
+.contain:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 .tage h2 {
